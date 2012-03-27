@@ -1,7 +1,5 @@
 <!--
-Creating an initial plan.
-The agent has one initial plan (created when the agent is born)
-for translating words from English to German.
+Using plan parameters
 -->
 <agent xmlns="http://jadex.sourceforge.net/jadex"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -25,7 +23,7 @@ for translating words from English to German.
  	<events>
  		<messageevent name="request_translation" direction="receive" type="fipa">
  			<parameter name="performative" class="String" direction="fixed">
- 				<value>jadex.adapter.fipa.SFipa.REQUEST</value>
+ 				<value>jadex.base.fipa.SFipa.REQUEST</value>
  			</parameter>
  		</messageevent>
  	</events>

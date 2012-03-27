@@ -1,11 +1,10 @@
 package de.pascaljaeger.jadex.tutorial.b2;
 
-import java.util.HashMap;
-
 import jadex.base.fipa.SFipa;
-import jadex.bdi.runtime.IElement;
 import jadex.bdi.runtime.IMessageEvent;
 import jadex.bdi.runtime.Plan;
+
+import java.util.HashMap;
 
 public class EnglishGermanTranslationPlanB2 extends Plan {
 	
@@ -22,8 +21,7 @@ public class EnglishGermanTranslationPlanB2 extends Plan {
 	public void body() {
 		System.out.println("Entering Body");
 		IMessageEvent me = (IMessageEvent)getReason();
-		String eword = me.getMessage().toString();
-		//String eword = (String)me.getParameter(SFipa.CONTENT).getValue();
+		String eword = (String)me.getParameter(SFipa.CONTENT).getValue();
 		System.out.println("Eword = "+eword);
 		if(hm.containsKey(eword)){
 			String gword = hm.get(eword);

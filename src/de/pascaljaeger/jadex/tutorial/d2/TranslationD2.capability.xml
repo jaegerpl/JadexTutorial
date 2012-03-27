@@ -1,0 +1,80 @@
+<capability xmlns="http://jadex.sourceforge.net/jadex"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://jadex.sourceforge.net/jadex-bdi
+                                http://jadex.sourceforge.net/jadex-bdi-2.0.xsd"
+  name="TranslationD2"
+  package="de.pascaljaeger.jadex.tutorial.d2">
+  
+
+<imports>
+	  <import>java.util.logging.*</import>
+	  <import>java.util.*</import>    
+	  <import>jadex.base.fipa.*</import>
+	  <import>jadex.commons.*</import>
+	</imports>
+	
+	<beliefs>
+	  <beliefset name="egwords" class="Tuple">
+	    <fact>new Tuple("milk", "Milch")</fact>
+	    <fact>new Tuple("cow", "Kuh")</fact>
+	  </beliefset>
+	</beliefs>
+	
+	<plans>
+		<plan name="addword">
+		 <body class="AddGermanWordPlanD2"/>
+			<trigger>
+				<messageevent ref="request-addword"/>
+			</trigger>
+ 		</plan>
+ 		<plan name="egtrans">
+  			<body class="EnglishGermanTranslationPlanD2"/>
+  			<trigger>
+    		<messageevent ref="request_translation"/>
+  			</trigger>
+		</plan>
+		<plan name="esynonym">
+  			<body class="FindEnglishSynonymsPlanD2"/>
+  			<trigger>
+    		<messageevent ref="request_synonym"/>
+  			</trigger>
+		</plan>
+	</plans>
+
+ 	<events>
+ 		<messageevent name="request_translation" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>SFipa.REQUEST</value>
+ 			</parameter>
+ 			<match>$content instanceof String &amp;&amp; ((String)$content).startsWith("translate english_german")</match>
+ 		</messageevent>
+ 		<messageevent name="request-addword" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>SFipa.REQUEST</value>
+ 			</parameter>
+ 			<match>$content instanceof String &amp;&amp; ((String)$content).startsWith("add english_german")</match>
+ 		</messageevent>
+ 		<messageevent name="inform" direction="send" type="fipa">
+        	<parameter name="performative" class="String" direction="fixed">
+            	<value>SFipa.INFORM</value>
+        	</parameter>
+    	</messageevent>
+		<messageevent name="failure" direction="send" type="fipa">
+        	<parameter name="performative" class="String" direction="fixed">
+        	    <value>SFipa.FAILURE</value>
+        	</parameter>
+    	</messageevent>
+    	<messageevent name="request_synonyms" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>SFipa.REQUEST</value>
+ 			</parameter>
+ 			<match>$content instanceof String &amp;&amp; ((String)$content).startsWith("find_synonyms english")</match>
+ 		</messageevent>
+ 	</events>
+ 	
+ 	<expression name="query_egword">
+	  select one $wordpair.get(1)
+	  from Tuple $wordpair in $beliefbase.getBeliefSet("egwords").getFacts()
+	  where $wordpair.get(0).equals($eword)
+	</expression>
+</capability>

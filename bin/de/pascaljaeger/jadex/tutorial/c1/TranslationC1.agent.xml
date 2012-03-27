@@ -1,0 +1,55 @@
+<!--
+Creating an initial plan.
+The agent has one initial plan (created when the agent is born)
+for translating words from English to German.
+-->
+<agent xmlns="http://jadex.sourceforge.net/jadex"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jadex.sourceforge.net/jadex
+						http://jadex.sourceforge.net/jadex-2.0.xsd"
+	name="TranslationC1"
+	package="de.pascaljaeger.jadex.tutorial.c1">
+	
+	<imports>
+	  <import>java.util.logging.*</import>
+	  <import>java.util.*</import>    
+	  <import>jadex.base.fipa.*</import>
+	</imports>
+	
+	<beliefs>
+	  <belief name="egwords" class="Map">
+	    <fact>SearchTranslationOnlinePlanC1.getDictionary()</fact>
+	  </belief>
+	</beliefs>
+	
+	<plans>
+		<plan name="addword">
+		 <body class="AddGermanWordPlanC1"/>
+			<trigger>
+				<messageevent ref="request-addword"/>
+			</trigger>
+ 		</plan>
+ 		<plan name="egtrans">
+  			<body class="SearchTranslationOnlinePlanC1"/>
+  			<trigger>
+    		<messageevent ref="request_translation"/>
+  			</trigger>
+		</plan>
+	</plans>
+
+ 	<events>
+ 		<messageevent name="request_translation" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>SFipa.REQUEST</value>
+ 			</parameter>
+ 			<match>$content instanceof String &amp;&amp; ((String)$content).startsWith("translate english_german")</match>
+ 		</messageevent>
+ 		<messageevent name="request-addword" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>SFipa.REQUEST</value>
+ 			</parameter>
+ 			<match>$content instanceof String &amp;&amp; ((String)$content).startsWith("add english_german")</match>
+ 		</messageevent>
+ 	</events>
+
+</agent>

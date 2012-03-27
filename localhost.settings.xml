@@ -9,121 +9,55 @@
 			<path>
 				<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="2" __len="2">
 					<entries>
-						<p1:String __ID="3">b4</p1:String>
-						<p1:String __ID="4">TranslationB4.agent.xml</p1:String>
+						<p1:String __ID="3">d1</p1:String>
+						<p1:String __ID="4">TranslationD1.agent.xml</p1:String>
 					</entries>
 				</p1:String__1>
 			</path>
 		</p0:NodePath>
 	</selectedNode>
 	<expandedNodes>
-		<p0:NodePath__1 __ID="5" __len="10">
+		<p0:NodePath__1 __ID="5" __len="4">
 			<entries>
-				<p0:NodePath __ID="6" entry="1">
+				<p0:NodePath __ID="6" entry="0">
 					<path>
 						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="7" __len="1">
 							<entries>
-								<p1:String __ID="8">jadex-applications-bdi-2.0</p1:String>
+								<p1:String __ID="8">d1</p1:String>
 							</entries>
 						</p1:String__1>
 					</path>
 				</p0:NodePath>
-				<p0:NodePath __ID="9" entry="1">
+				<p0:NodePath __ID="9" entry="0">
 					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="10" __len="6">
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="10" __len="1">
 							<entries>
-								<p1:String __ID="11">jadex-applications-bdi-2.0</p1:String>
-								<p1:String __ID="12">jadex</p1:String>
-								<p1:String __ID="13">bdi</p1:String>
-								<p1:String __ID="14">examples</p1:String>
-								<p1:String __ID="15">cleanerworld</p1:String>
-								<p1:String __ID="16">cleaner</p1:String>
+								<p1:String __ID="11">c2</p1:String>
 							</entries>
 						</p1:String__1>
 					</path>
 				</p0:NodePath>
-				<p0:NodePath __ID="17" entry="0">
+				<p0:NodePath __ID="12" entry="0">
 					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="18" __len="1">
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="13" __len="1">
 							<entries>
-								<p1:String __ID="19">b3</p1:String>
+								<p1:String __ID="14">c3</p1:String>
 							</entries>
 						</p1:String__1>
 					</path>
 				</p0:NodePath>
-				<p0:NodePath __ID="20" entry="0">
+				<p0:NodePath __ID="15" entry="0">
 					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="21" __len="1">
-							<entries>
-								<p1:String __ID="22">b4</p1:String>
-							</entries>
-						</p1:String__1>
-					</path>
-				</p0:NodePath>
-				<p0:NodePath __ID="23" entry="0">
-					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="24" __len="0"></p1:String__1>
-					</path>
-				</p0:NodePath>
-				<p0:NodePath __ID="25" entry="1">
-					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="26" __len="4">
-							<entries>
-								<p1:String __ID="27">jadex-applications-bdi-2.0</p1:String>
-								<p1:String __ID="28">jadex</p1:String>
-								<p1:String __ID="29">bdi</p1:String>
-								<p1:String __ID="30">examples</p1:String>
-							</entries>
-						</p1:String__1>
-					</path>
-				</p0:NodePath>
-				<p0:NodePath __ID="31" entry="1">
-					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="32" __len="5">
-							<entries>
-								<p1:String __ID="33">jadex-applications-bdi-2.0</p1:String>
-								<p1:String __ID="34">jadex</p1:String>
-								<p1:String __ID="35">bdi</p1:String>
-								<p1:String __ID="36">examples</p1:String>
-								<p1:String __ID="37">cleanerworld</p1:String>
-							</entries>
-						</p1:String__1>
-					</path>
-				</p0:NodePath>
-				<p0:NodePath __ID="38" entry="1">
-					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="39" __len="2">
-							<entries>
-								<p1:String __ID="40">jadex-applications-bdi-2.0</p1:String>
-								<p1:String __ID="41">jadex</p1:String>
-							</entries>
-						</p1:String__1>
-					</path>
-				</p0:NodePath>
-				<p0:NodePath __ID="42" entry="1">
-					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="43" __len="0"></p1:String__1>
-					</path>
-				</p0:NodePath>
-				<p0:NodePath __ID="44" entry="1">
-					<path>
-						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="45" __len="3">
-							<entries>
-								<p1:String __ID="46">jadex-applications-bdi-2.0</p1:String>
-								<p1:String __ID="47">jadex</p1:String>
-								<p1:String __ID="48">bdi</p1:String>
-							</entries>
-						</p1:String__1>
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="16" __len="0"></p1:String__1>
 					</path>
 				</p0:NodePath>
 			</entries>
 		</p0:NodePath__1>
 	</expandedNodes>
 	<rootPathEntries>
-		<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="49" __len="2">
+		<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="17" __len="1">
 			<entries>
-				<p1:String __ID="50">./src/de/pascaljaeger/jadex/tutorial</p1:String>
-				<p1:String __ID="51">../jadex-2.0/lib</p1:String>
+				<p1:String __ID="18">./src/de/pascaljaeger/jadex/tutorial</p1:String>
 			</entries>
 		</p1:String__1>
 	</rootPathEntries>
@@ -133,42 +67,41 @@
 				<p0:property __ID="5" type="BDI Agent">true</p0:property>
 				<p0:property __ID="6" type="BPMN Process">true</p0:property>
 				<p0:property __ID="7" type="BDI Capability">true</p0:property>
-				<p0:property __ID="8" type="Application">true</p0:property>
-				<p0:property __ID="9" type="Component">true</p0:property>
-				<p0:property __ID="10" type="Micro Agent">true</p0:property>
-				<type __ID="11">mic</type>
+				<p0:property __ID="8" type="Component">true</p0:property>
+				<p0:property __ID="9" type="Micro Agent">true</p0:property>
+				<type __ID="10">mic</type>
 			</p0:properties>
-			<type __ID="12">mpanel</type>
+			<type __ID="11">mpanel</type>
 		</p0:properties>
-		<p0:properties __ID="13">
-			<p0:property __ID="14" type="model">./src/de/pascaljaeger/jadex/tutorial/b4/TranslationB4.agent.xml</p0:property>
-			<p0:property __ID="15" type="startsuspended">false</p0:property>
-			<p0:property __ID="16" type="autogenerate">false</p0:property>
-			<p0:property __ID="17" type="number">1</p0:property>
-			<p0:property __ID="18" type="name">TranslationB4</p0:property>
-			<type __ID="19">spanel</type>
+		<p0:properties __ID="12">
+			<p0:property __ID="13" type="model">./src/de/pascaljaeger/jadex/tutorial/d1/TranslationD1.agent.xml</p0:property>
+			<p0:property __ID="14" type="startsuspended">false</p0:property>
+			<p0:property __ID="15" type="autogenerate">false</p0:property>
+			<p0:property __ID="16" type="number">1</p0:property>
+			<p0:property __ID="17" type="name">TranslationD1</p0:property>
+			<type __ID="18">spanel</type>
 		</p0:properties>
-		<type __ID="20">StarterServicePanel</type>
+		<type __ID="19">StarterServicePanel</type>
 	</p0:properties>
-	<p0:properties __ID="21">
-		<p0:property __ID="22" type="entry">file:../jadex-2.0/lib</p0:property>
-		<p0:property __ID="23" type="entry">file:./src/de/pascaljaeger/jadex/tutorial</p0:property>
-		<type __ID="24">library_service</type>
+	<p0:properties __ID="20">
+		<p0:property __ID="21" type="entry">file:../jadex-2.0/lib</p0:property>
+		<p0:property __ID="22" type="entry">file:./src/de/pascaljaeger/jadex/tutorial</p0:property>
+		<type __ID="23">library_service</type>
 	</p0:properties>
-	<p0:properties __ID="25">
-		<p0:property __ID="26" type="type">system</p0:property>
-		<p0:property __ID="27" type="delta">100</p0:property>
-		<p0:property __ID="28" type="dilation">1.0</p0:property>
-		<type __ID="29">clockservice</type>
+	<p0:properties __ID="24">
+		<p0:property __ID="25" type="type">system</p0:property>
+		<p0:property __ID="26" type="delta">100</p0:property>
+		<p0:property __ID="27" type="dilation">1.0</p0:property>
+		<type __ID="28">clockservice</type>
 	</p0:properties>
-	<p0:properties __ID="30">
-		<p0:property __ID="31" type="executing">true</p0:property>
-		<type __ID="32">simulationservice</type>
+	<p0:properties __ID="29">
+		<p0:property __ID="30" type="executing">true</p0:property>
+		<type __ID="31">simulationservice</type>
 	</p0:properties>
-	<p0:properties __ID="33">
-		<p0:property __ID="34" type="fast">false</p0:property>
-		<p0:property __ID="35" type="autocreate">true</p0:property>
-		<p0:property __ID="36" type="autodelete">true</p0:property>
-		<type __ID="37">awa</type>
+	<p0:properties __ID="32">
+		<p0:property __ID="33" type="fast">false</p0:property>
+		<p0:property __ID="34" type="autocreate">true</p0:property>
+		<p0:property __ID="35" type="autodelete">true</p0:property>
+		<type __ID="36">awa</type>
 	</p0:properties>
 </p0:properties>

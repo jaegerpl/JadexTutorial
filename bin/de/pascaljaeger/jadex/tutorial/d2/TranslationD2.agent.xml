@@ -1,0 +1,55 @@
+<!--
+Creating an initial plan.
+The agent has one initial plan (created when the agent is born)
+for translating words from English to German.
+-->
+<agent xmlns="http://jadex.sourceforge.net/jadex"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jadex.sourceforge.net/jadex-bdi
+						http://jadex.sourceforge.net/jadex-bdi-2.0.xsd"
+	name="TranslationD2"
+	package="de.pascaljaeger.jadex.tutorial.d2">
+	
+	<imports>
+	  <import>java.util.logging.*</import>
+	  <import>java.util.*</import>    
+	  <import>jadex.base.fipa.*</import>
+	  <import>jadex.commons.*</import>
+	</imports>
+	
+	<capabilities>
+    	<capability name="transcap" file="TranslationD2"/>
+	</capabilities>
+
+ 	<events>
+ 		<messageevent name="request_translation" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>SFipa.REQUEST</value>
+ 			</parameter>
+ 			<match>$content instanceof String &amp;&amp; ((String)$content).startsWith("translate english_german")</match>
+ 		</messageevent>
+ 		<messageevent name="request-addword" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>SFipa.REQUEST</value>
+ 			</parameter>
+ 			<match>$content instanceof String &amp;&amp; ((String)$content).startsWith("add english_german")</match>
+ 		</messageevent>
+ 		<messageevent name="inform" direction="send" type="fipa">
+        	<parameter name="performative" class="String" direction="fixed">
+            	<value>SFipa.INFORM</value>
+        	</parameter>
+    	</messageevent>
+		<messageevent name="failure" direction="send" type="fipa">
+        	<parameter name="performative" class="String" direction="fixed">
+        	    <value>SFipa.FAILURE</value>
+        	</parameter>
+    	</messageevent>
+ 	</events>
+ 	
+ 	<expression name="query_egword">
+	  select one $wordpair.get(1)
+	  from Tuple $wordpair in $beliefbase.getBeliefSet("egwords").getFacts()
+	  where $wordpair.get(0).equals($eword)
+	</expression>
+
+</agent>
