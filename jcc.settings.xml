@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p0:properties xmlns:p0="http://jadex.sourceforge.net/jadexconf" __ID="0">
+	<p0:properties __ID="1">
+		<p0:property __ID="2" type="perspective">Conversation Center</p0:property>
+		<p0:property __ID="3" type="consoleenabled">false</p0:property>
+		<p0:property __ID="4" type="consoleheights"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<p0:HashMap xmlns:p0="typeinfo:java.util" __ID="0">
+	<entries>
+		<entry __ID="1">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="2">Starter.console.height</p1:String>
+			</key>
+			<value>
+				<p1:Double xmlns:p1="typeinfo:java.lang" __ID="3" content="1.0"></p1:Double>
+			</value>
+		</entry>
+		<entry __ID="4">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="5">Conversation Center.console.height</p1:String>
+			</key>
+			<value>
+				<p1:Double xmlns:p1="typeinfo:java.lang" __ID="6" content="1.0"></p1:Double>
+			</value>
+		</entry>
+	</entries>
+</p0:HashMap>
+]]></p0:property>
+		<type __ID="5">controlcenter</type>
+	</p0:properties>
+	<p0:properties __ID="6">
+		<p0:property __ID="7" type="leftsplit_location">0.6997282608695652</p0:property>
+		<p0:property __ID="8" type="mainsplit_location">0.2994090610636901</p0:property>
+		<type __ID="9">Starter</type>
+	</p0:properties>
+	<p0:properties __ID="10">
+		<p0:properties __ID="11">
+			<p0:property __ID="12" type="lastmessage"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<p0:HashMap xmlns:p0="typeinfo:java.util" __ID="0">
+	<entries>
+		<entry __ID="1">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="2">FipaConversationPanel-message-type</p1:String>
+			</key>
+			<value>
+				<p2:FIPAMessageType xmlns:p2="typeinfo:jadex.base.fipa" __ID="3"></p2:FIPAMessageType>
+			</value>
+		</entry>
+		<entry __ID="4">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="5">reply_with</p1:String>
+			</key>
+		</entry>
+		<entry __ID="6">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="7">protocol</p1:String>
+			</key>
+		</entry>
+		<entry __ID="8">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="9">reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="10">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="11">conversation_id</p1:String>
+			</key>
+		</entry>
+		<entry __ID="12">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="13">ontology</p1:String>
+			</key>
+		</entry>
+		<entry __ID="14">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="15">in_reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="16">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="17">receivers</p1:String>
+			</key>
+			<value>
+				<p3:IComponentIdentifier__1 xmlns:p3="typeinfo:jadex.bridge" __ID="18" __len="1">
+					<entries>
+						<p3:ComponentIdentifier __ID="19">
+							<name>
+								<p1:String xmlns:p1="typeinfo:java.lang" __ID="20">TranslationB4@localhost_0e8</p1:String>
+							</name>
+							<addresses>
+								<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="21" __len="7">
+									<entries>
+										<p1:String __ID="22">nio-mtp://127.0.0.1:52502</p1:String>
+										<p1:String __ID="23">nio-mtp://0:0:0:0:0:0:0:1:52502</p1:String>
+										<p1:String __ID="24">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:52502</p1:String>
+										<p1:String __ID="25">nio-mtp://10.211.55.2:52502</p1:String>
+										<p1:String __ID="26">nio-mtp://fe80:0:0:0:0:0:0:1%1:52502</p1:String>
+										<p1:String __ID="27">nio-mtp://10.37.129.2:52502</p1:String>
+										<p1:String __ID="28">nio-mtp://192.168.2.104:52502</p1:String>
+									</entries>
+								</p1:String__1>
+							</addresses>
+						</p3:ComponentIdentifier>
+					</entries>
+				</p3:IComponentIdentifier__1>
+			</value>
+		</entry>
+		<entry __ID="29">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="30">sender</p1:String>
+			</key>
+			<value>
+				<p3:ComponentIdentifier xmlns:p3="typeinfo:jadex.bridge" __ID="31">
+					<name>
+						<p1:String xmlns:p1="typeinfo:java.lang" __ID="32">localhost_0e8</p1:String>
+					</name>
+					<addresses>
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __IDREF="21"></p1:String__1>
+					</addresses>
+				</p3:ComponentIdentifier>
+			</value>
+		</entry>
+		<entry __ID="33">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="34">content</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="35">Hello</p1:String>
+			</value>
+		</entry>
+		<entry __ID="36">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="37">reply_by</p1:String>
+			</key>
+		</entry>
+		<entry __ID="38">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="39">encoding</p1:String>
+			</key>
+		</entry>
+		<entry __ID="40">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="41">language</p1:String>
+			</key>
+		</entry>
+		<entry __ID="42">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="43">performative</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="44">request</p1:String>
+			</value>
+		</entry>
+	</entries>
+</p0:HashMap>
+]]></p0:property>
+			<p0:property __ID="13" type="sentmessage"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<p0:HashMap xmlns:p0="typeinfo:java.util" __ID="0">
+	<entries>
+		<entry __ID="1">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="2">FipaConversationPanel-message-type</p1:String>
+			</key>
+			<value>
+				<p2:FIPAMessageType xmlns:p2="typeinfo:jadex.base.fipa" __ID="3"></p2:FIPAMessageType>
+			</value>
+		</entry>
+		<entry __ID="4">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="5">reply_with</p1:String>
+			</key>
+		</entry>
+		<entry __ID="6">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="7">protocol</p1:String>
+			</key>
+		</entry>
+		<entry __ID="8">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="9">reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="10">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="11">x_message_id</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="12">localhost_0e8_0.17209831121457797_2</p1:String>
+			</value>
+		</entry>
+		<entry __ID="13">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="14">conversation_id</p1:String>
+			</key>
+		</entry>
+		<entry __ID="15">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="16">x_timestamp</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="17">1332405768758</p1:String>
+			</value>
+		</entry>
+		<entry __ID="18">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="19">ontology</p1:String>
+			</key>
+		</entry>
+		<entry __ID="20">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="21">in_reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="22">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="23">receivers</p1:String>
+			</key>
+			<value>
+				<p3:IComponentIdentifier__1 xmlns:p3="typeinfo:jadex.bridge" __ID="24" __len="1">
+					<entries>
+						<p3:ComponentIdentifier __ID="25">
+							<name>
+								<p1:String xmlns:p1="typeinfo:java.lang" __ID="26">TranslationB4@localhost_0e8</p1:String>
+							</name>
+							<addresses>
+								<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="27" __len="7">
+									<entries>
+										<p1:String __ID="28">nio-mtp://127.0.0.1:52502</p1:String>
+										<p1:String __ID="29">nio-mtp://0:0:0:0:0:0:0:1:52502</p1:String>
+										<p1:String __ID="30">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:52502</p1:String>
+										<p1:String __ID="31">nio-mtp://10.211.55.2:52502</p1:String>
+										<p1:String __ID="32">nio-mtp://fe80:0:0:0:0:0:0:1%1:52502</p1:String>
+										<p1:String __ID="33">nio-mtp://10.37.129.2:52502</p1:String>
+										<p1:String __ID="34">nio-mtp://192.168.2.104:52502</p1:String>
+									</entries>
+								</p1:String__1>
+							</addresses>
+						</p3:ComponentIdentifier>
+					</entries>
+				</p3:IComponentIdentifier__1>
+			</value>
+		</entry>
+		<entry __ID="35">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="36">sender</p1:String>
+			</key>
+			<value>
+				<p3:ComponentIdentifier xmlns:p3="typeinfo:jadex.bridge" __ID="37">
+					<name>
+						<p1:String xmlns:p1="typeinfo:java.lang" __ID="38">localhost_0e8</p1:String>
+					</name>
+					<addresses>
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __IDREF="27"></p1:String__1>
+					</addresses>
+				</p3:ComponentIdentifier>
+			</value>
+		</entry>
+		<entry __ID="39">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="40">content</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="41">Hello</p1:String>
+			</value>
+		</entry>
+		<entry __ID="42">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="43">reply_by</p1:String>
+			</key>
+		</entry>
+		<entry __ID="44">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="45">encoding</p1:String>
+			</key>
+		</entry>
+		<entry __ID="46">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="47">language</p1:String>
+			</key>
+		</entry>
+		<entry __ID="48">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="49">performative</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="50">request</p1:String>
+			</value>
+		</entry>
+	</entries>
+</p0:HashMap>
+]]></p0:property>
+			<p0:property __ID="14" type="sentmessage"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<p0:HashMap xmlns:p0="typeinfo:java.util" __ID="0">
+	<entries>
+		<entry __ID="1">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="2">FipaConversationPanel-message-type</p1:String>
+			</key>
+			<value>
+				<p2:FIPAMessageType xmlns:p2="typeinfo:jadex.base.fipa" __ID="3"></p2:FIPAMessageType>
+			</value>
+		</entry>
+		<entry __ID="4">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="5">reply_with</p1:String>
+			</key>
+		</entry>
+		<entry __ID="6">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="7">protocol</p1:String>
+			</key>
+		</entry>
+		<entry __ID="8">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="9">reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="10">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="11">x_message_id</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="12">localhost_01d_0.28212905480141726_2</p1:String>
+			</value>
+		</entry>
+		<entry __ID="13">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="14">conversation_id</p1:String>
+			</key>
+		</entry>
+		<entry __ID="15">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="16">x_timestamp</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="17">1332405021042</p1:String>
+			</value>
+		</entry>
+		<entry __ID="18">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="19">ontology</p1:String>
+			</key>
+		</entry>
+		<entry __ID="20">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="21">in_reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="22">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="23">receivers</p1:String>
+			</key>
+			<value>
+				<p3:IComponentIdentifier__1 xmlns:p3="typeinfo:jadex.bridge" __ID="24" __len="1">
+					<entries>
+						<p3:ComponentIdentifier __ID="25">
+							<name>
+								<p1:String xmlns:p1="typeinfo:java.lang" __ID="26">TranslationB3@localhost_01d</p1:String>
+							</name>
+							<addresses>
+								<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="27" __len="7">
+									<entries>
+										<p1:String __ID="28">nio-mtp://127.0.0.1:52309</p1:String>
+										<p1:String __ID="29">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:52309</p1:String>
+										<p1:String __ID="30">nio-mtp://fe80:0:0:0:0:0:0:1%1:52309</p1:String>
+										<p1:String __ID="31">nio-mtp://10.211.55.2:52309</p1:String>
+										<p1:String __ID="32">nio-mtp://192.168.2.104:52309</p1:String>
+										<p1:String __ID="33">nio-mtp://10.37.129.2:52309</p1:String>
+										<p1:String __ID="34">nio-mtp://0:0:0:0:0:0:0:1:52309</p1:String>
+									</entries>
+								</p1:String__1>
+							</addresses>
+						</p3:ComponentIdentifier>
+					</entries>
+				</p3:IComponentIdentifier__1>
+			</value>
+		</entry>
+		<entry __ID="35">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="36">sender</p1:String>
+			</key>
+			<value>
+				<p3:ComponentIdentifier xmlns:p3="typeinfo:jadex.bridge" __ID="37">
+					<name>
+						<p1:String xmlns:p1="typeinfo:java.lang" __ID="38">localhost_0e8</p1:String>
+					</name>
+					<addresses>
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="39" __len="7">
+							<entries>
+								<p1:String __ID="40">nio-mtp://127.0.0.1:52502</p1:String>
+								<p1:String __ID="41">nio-mtp://0:0:0:0:0:0:0:1:52502</p1:String>
+								<p1:String __ID="42">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:52502</p1:String>
+								<p1:String __ID="43">nio-mtp://10.211.55.2:52502</p1:String>
+								<p1:String __ID="44">nio-mtp://fe80:0:0:0:0:0:0:1%1:52502</p1:String>
+								<p1:String __ID="45">nio-mtp://10.37.129.2:52502</p1:String>
+								<p1:String __ID="46">nio-mtp://192.168.2.104:52502</p1:String>
+							</entries>
+						</p1:String__1>
+					</addresses>
+				</p3:ComponentIdentifier>
+			</value>
+		</entry>
+		<entry __ID="47">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="48">content</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="49">Hello</p1:String>
+			</value>
+		</entry>
+		<entry __ID="50">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="51">encoding</p1:String>
+			</key>
+		</entry>
+		<entry __ID="52">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="53">reply_by</p1:String>
+			</key>
+		</entry>
+		<entry __ID="54">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="55">language</p1:String>
+			</key>
+		</entry>
+		<entry __ID="56">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="57">performative</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="58">request</p1:String>
+			</value>
+		</entry>
+	</entries>
+</p0:HashMap>
+]]></p0:property>
+			<p0:property __ID="15" type="sentmessage"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<p0:HashMap xmlns:p0="typeinfo:java.util" __ID="0">
+	<entries>
+		<entry __ID="1">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="2">FipaConversationPanel-message-type</p1:String>
+			</key>
+			<value>
+				<p2:FIPAMessageType xmlns:p2="typeinfo:jadex.base.fipa" __ID="3"></p2:FIPAMessageType>
+			</value>
+		</entry>
+		<entry __ID="4">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="5">reply_with</p1:String>
+			</key>
+		</entry>
+		<entry __ID="6">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="7">protocol</p1:String>
+			</key>
+		</entry>
+		<entry __ID="8">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="9">reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="10">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="11">x_message_id</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="12">localhost_fd5_0.30112384299096673_2</p1:String>
+			</value>
+		</entry>
+		<entry __ID="13">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="14">conversation_id</p1:String>
+			</key>
+		</entry>
+		<entry __ID="15">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="16">x_timestamp</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="17">1332401857476</p1:String>
+			</value>
+		</entry>
+		<entry __ID="18">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="19">ontology</p1:String>
+			</key>
+		</entry>
+		<entry __ID="20">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="21">in_reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="22">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="23">receivers</p1:String>
+			</key>
+			<value>
+				<p3:IComponentIdentifier__1 xmlns:p3="typeinfo:jadex.bridge" __ID="24" __len="1">
+					<entries>
+						<p3:ComponentIdentifier __ID="25">
+							<name>
+								<p1:String xmlns:p1="typeinfo:java.lang" __ID="26">TranslationB3@localhost_fd5</p1:String>
+							</name>
+							<addresses>
+								<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="27" __len="7">
+									<entries>
+										<p1:String __ID="28">nio-mtp://192.168.2.104:50515</p1:String>
+										<p1:String __ID="29">nio-mtp://10.211.55.2:50515</p1:String>
+										<p1:String __ID="30">nio-mtp://10.37.129.2:50515</p1:String>
+										<p1:String __ID="31">nio-mtp://0:0:0:0:0:0:0:1:50515</p1:String>
+										<p1:String __ID="32">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:50515</p1:String>
+										<p1:String __ID="33">nio-mtp://127.0.0.1:50515</p1:String>
+										<p1:String __ID="34">nio-mtp://fe80:0:0:0:0:0:0:1%1:50515</p1:String>
+									</entries>
+								</p1:String__1>
+							</addresses>
+						</p3:ComponentIdentifier>
+					</entries>
+				</p3:IComponentIdentifier__1>
+			</value>
+		</entry>
+		<entry __ID="35">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="36">sender</p1:String>
+			</key>
+			<value>
+				<p3:ComponentIdentifier xmlns:p3="typeinfo:jadex.bridge" __ID="37">
+					<name>
+						<p1:String xmlns:p1="typeinfo:java.lang" __ID="38">localhost_0e8</p1:String>
+					</name>
+					<addresses>
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="39" __len="7">
+							<entries>
+								<p1:String __ID="40">nio-mtp://127.0.0.1:52502</p1:String>
+								<p1:String __ID="41">nio-mtp://0:0:0:0:0:0:0:1:52502</p1:String>
+								<p1:String __ID="42">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:52502</p1:String>
+								<p1:String __ID="43">nio-mtp://10.211.55.2:52502</p1:String>
+								<p1:String __ID="44">nio-mtp://fe80:0:0:0:0:0:0:1%1:52502</p1:String>
+								<p1:String __ID="45">nio-mtp://10.37.129.2:52502</p1:String>
+								<p1:String __ID="46">nio-mtp://192.168.2.104:52502</p1:String>
+							</entries>
+						</p1:String__1>
+					</addresses>
+				</p3:ComponentIdentifier>
+			</value>
+		</entry>
+		<entry __ID="47">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="48">content</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="49">Hello</p1:String>
+			</value>
+		</entry>
+		<entry __ID="50">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="51">reply_by</p1:String>
+			</key>
+		</entry>
+		<entry __ID="52">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="53">encoding</p1:String>
+			</key>
+		</entry>
+		<entry __ID="54">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="55">language</p1:String>
+			</key>
+		</entry>
+		<entry __ID="56">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="57">performative</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="58">request</p1:String>
+			</value>
+		</entry>
+	</entries>
+</p0:HashMap>
+]]></p0:property>
+			<p0:property __ID="16" type="sentmessage"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<p0:HashMap xmlns:p0="typeinfo:java.util" __ID="0">
+	<entries>
+		<entry __ID="1">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="2">FipaConversationPanel-message-type</p1:String>
+			</key>
+			<value>
+				<p2:FIPAMessageType xmlns:p2="typeinfo:jadex.base.fipa" __ID="3"></p2:FIPAMessageType>
+			</value>
+		</entry>
+		<entry __ID="4">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="5">reply_with</p1:String>
+			</key>
+		</entry>
+		<entry __ID="6">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="7">protocol</p1:String>
+			</key>
+		</entry>
+		<entry __ID="8">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="9">reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="10">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="11">x_message_id</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="12">localhost_74f_0.866610355997022_3</p1:String>
+			</value>
+		</entry>
+		<entry __ID="13">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="14">conversation_id</p1:String>
+			</key>
+		</entry>
+		<entry __ID="15">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="16">x_timestamp</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="17">1332401729471</p1:String>
+			</value>
+		</entry>
+		<entry __ID="18">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="19">ontology</p1:String>
+			</key>
+		</entry>
+		<entry __ID="20">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="21">in_reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="22">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="23">receivers</p1:String>
+			</key>
+			<value>
+				<p3:IComponentIdentifier__1 xmlns:p3="typeinfo:jadex.bridge" __ID="24" __len="1">
+					<entries>
+						<p3:ComponentIdentifier __ID="25">
+							<name>
+								<p1:String xmlns:p1="typeinfo:java.lang" __ID="26">TranslationB3@localhost_74f</p1:String>
+							</name>
+							<addresses>
+								<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="27" __len="7">
+									<entries>
+										<p1:String __ID="28">nio-mtp://127.0.0.1:50484</p1:String>
+										<p1:String __ID="29">nio-mtp://192.168.2.104:50484</p1:String>
+										<p1:String __ID="30">nio-mtp://10.211.55.2:50484</p1:String>
+										<p1:String __ID="31">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:50484</p1:String>
+										<p1:String __ID="32">nio-mtp://10.37.129.2:50484</p1:String>
+										<p1:String __ID="33">nio-mtp://0:0:0:0:0:0:0:1:50484</p1:String>
+										<p1:String __ID="34">nio-mtp://fe80:0:0:0:0:0:0:1%1:50484</p1:String>
+									</entries>
+								</p1:String__1>
+							</addresses>
+						</p3:ComponentIdentifier>
+					</entries>
+				</p3:IComponentIdentifier__1>
+			</value>
+		</entry>
+		<entry __ID="35">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="36">sender</p1:String>
+			</key>
+			<value>
+				<p3:ComponentIdentifier xmlns:p3="typeinfo:jadex.bridge" __ID="37">
+					<name>
+						<p1:String xmlns:p1="typeinfo:java.lang" __ID="38">localhost_0e8</p1:String>
+					</name>
+					<addresses>
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="39" __len="7">
+							<entries>
+								<p1:String __ID="40">nio-mtp://127.0.0.1:52502</p1:String>
+								<p1:String __ID="41">nio-mtp://0:0:0:0:0:0:0:1:52502</p1:String>
+								<p1:String __ID="42">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:52502</p1:String>
+								<p1:String __ID="43">nio-mtp://10.211.55.2:52502</p1:String>
+								<p1:String __ID="44">nio-mtp://fe80:0:0:0:0:0:0:1%1:52502</p1:String>
+								<p1:String __ID="45">nio-mtp://10.37.129.2:52502</p1:String>
+								<p1:String __ID="46">nio-mtp://192.168.2.104:52502</p1:String>
+							</entries>
+						</p1:String__1>
+					</addresses>
+				</p3:ComponentIdentifier>
+			</value>
+		</entry>
+		<entry __ID="47">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="48">content</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="49">Hello</p1:String>
+			</value>
+		</entry>
+		<entry __ID="50">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="51">encoding</p1:String>
+			</key>
+		</entry>
+		<entry __ID="52">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="53">reply_by</p1:String>
+			</key>
+		</entry>
+		<entry __ID="54">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="55">language</p1:String>
+			</key>
+		</entry>
+		<entry __ID="56">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="57">performative</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="58">request</p1:String>
+			</value>
+		</entry>
+	</entries>
+</p0:HashMap>
+]]></p0:property>
+			<p0:property __ID="17" type="sentmessage"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<p0:HashMap xmlns:p0="typeinfo:java.util" __ID="0">
+	<entries>
+		<entry __ID="1">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="2">FipaConversationPanel-message-type</p1:String>
+			</key>
+			<value>
+				<p2:FIPAMessageType xmlns:p2="typeinfo:jadex.base.fipa" __ID="3"></p2:FIPAMessageType>
+			</value>
+		</entry>
+		<entry __ID="4">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="5">reply_with</p1:String>
+			</key>
+		</entry>
+		<entry __ID="6">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="7">protocol</p1:String>
+			</key>
+		</entry>
+		<entry __ID="8">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="9">reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="10">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="11">x_message_id</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="12">localhost_121_0.33744176490687017_2</p1:String>
+			</value>
+		</entry>
+		<entry __ID="13">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="14">conversation_id</p1:String>
+			</key>
+		</entry>
+		<entry __ID="15">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="16">x_timestamp</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="17">1332400491185</p1:String>
+			</value>
+		</entry>
+		<entry __ID="18">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="19">in_reply_to</p1:String>
+			</key>
+		</entry>
+		<entry __ID="20">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="21">ontology</p1:String>
+			</key>
+		</entry>
+		<entry __ID="22">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="23">receivers</p1:String>
+			</key>
+			<value>
+				<p3:IComponentIdentifier__1 xmlns:p3="typeinfo:jadex.bridge" __ID="24" __len="1">
+					<entries>
+						<p3:ComponentIdentifier __ID="25">
+							<name>
+								<p1:String xmlns:p1="typeinfo:java.lang" __ID="26">TranslationB1@localhost_121</p1:String>
+							</name>
+							<addresses>
+								<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="27" __len="7">
+									<entries>
+										<p1:String __ID="28">nio-mtp://0:0:0:0:0:0:0:1:50130</p1:String>
+										<p1:String __ID="29">nio-mtp://10.211.55.2:50130</p1:String>
+										<p1:String __ID="30">nio-mtp://fe80:0:0:0:0:0:0:1%1:50130</p1:String>
+										<p1:String __ID="31">nio-mtp://127.0.0.1:50130</p1:String>
+										<p1:String __ID="32">nio-mtp://10.37.129.2:50130</p1:String>
+										<p1:String __ID="33">nio-mtp://192.168.2.104:50130</p1:String>
+										<p1:String __ID="34">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:50130</p1:String>
+									</entries>
+								</p1:String__1>
+							</addresses>
+						</p3:ComponentIdentifier>
+					</entries>
+				</p3:IComponentIdentifier__1>
+			</value>
+		</entry>
+		<entry __ID="35">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="36">content</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="37">Hello</p1:String>
+			</value>
+		</entry>
+		<entry __ID="38">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="39">sender</p1:String>
+			</key>
+			<value>
+				<p3:ComponentIdentifier xmlns:p3="typeinfo:jadex.bridge" __ID="40">
+					<name>
+						<p1:String xmlns:p1="typeinfo:java.lang" __ID="41">localhost_0e8</p1:String>
+					</name>
+					<addresses>
+						<p1:String__1 xmlns:p1="typeinfo:java.lang" __ID="42" __len="7">
+							<entries>
+								<p1:String __ID="43">nio-mtp://127.0.0.1:52502</p1:String>
+								<p1:String __ID="44">nio-mtp://0:0:0:0:0:0:0:1:52502</p1:String>
+								<p1:String __ID="45">nio-mtp://fe80:0:0:0:da30:62ff:fe53:a2b9%6:52502</p1:String>
+								<p1:String __ID="46">nio-mtp://10.211.55.2:52502</p1:String>
+								<p1:String __ID="47">nio-mtp://fe80:0:0:0:0:0:0:1%1:52502</p1:String>
+								<p1:String __ID="48">nio-mtp://10.37.129.2:52502</p1:String>
+								<p1:String __ID="49">nio-mtp://192.168.2.104:52502</p1:String>
+							</entries>
+						</p1:String__1>
+					</addresses>
+				</p3:ComponentIdentifier>
+			</value>
+		</entry>
+		<entry __ID="50">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="51">encoding</p1:String>
+			</key>
+		</entry>
+		<entry __ID="52">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="53">reply_by</p1:String>
+			</key>
+		</entry>
+		<entry __ID="54">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="55">language</p1:String>
+			</key>
+		</entry>
+		<entry __ID="56">
+			<key>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="57">performative</p1:String>
+			</key>
+			<value>
+				<p1:String xmlns:p1="typeinfo:java.lang" __ID="58">request</p1:String>
+			</value>
+		</entry>
+	</entries>
+</p0:HashMap>
+]]></p0:property>
+			<type __ID="18">convcenter</type>
+		</p0:properties>
+		<type __ID="19">Conversation Center</type>
+	</p0:properties>
+	<p0:properties __ID="20">
+		<p0:property __ID="21" type="width">1536</p0:property>
+		<p0:property __ID="22" type="height">864</p0:property>
+		<p0:property __ID="23" type="x">782</p0:property>
+		<p0:property __ID="24" type="y">289</p0:property>
+		<p0:property __ID="25" type="extendedState">0</p0:property>
+		<p0:property __ID="26" type="jccexit">ask</p0:property>
+		<p0:property __ID="27" type="saveonexit">true</p0:property>
+		<type __ID="28">window</type>
+	</p0:properties>
+</p0:properties>

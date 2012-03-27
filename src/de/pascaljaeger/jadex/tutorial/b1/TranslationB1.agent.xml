@@ -1,0 +1,32 @@
+<agent xmlns="http://jadex.sourceforge.net/jadex"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://jadex.sourceforge.net/jadex
+                      http://jadex.sourceforge.net/jadex-2.0.xsd"
+  name="TranslationB1"
+  package="de.pascaljaeger.jadex.tutorial.b1">
+
+  <plans>
+    <plan name="egtrans">
+      <body class="EnglishGermanTranslationPlanB1"/>
+      <waitqueue>
+        <messageevent ref="request_translation"/>
+      </waitqueue>
+    </plan>
+  </plans>
+
+  <events>
+    <messageevent name="request_translation" direction="receive" type="fipa">
+      <parameter name="performative" class="String" direction="fixed">
+        <value>jadex.base.fipa.SFipa.REQUEST</value>
+      </parameter>
+    </messageevent>
+  </events>
+
+  <configurations>
+    <configuration name="default">
+      <plans>
+        <initialplan ref="egtrans"/>
+      </plans>
+    </configuration>
+  </configurations>
+</agent>

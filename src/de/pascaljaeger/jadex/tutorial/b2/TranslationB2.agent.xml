@@ -1,0 +1,30 @@
+<!--
+Creating an initial plan.
+The agent has one initial plan (created when the agent is born)
+for translating words from English to German.
+-->
+<agent xmlns="http://jadex.sourceforge.net/jadex"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jadex.sourceforge.net/jadex
+						http://jadex.sourceforge.net/jadex-2.0.xsd"
+	name="TranslationB2"
+	package="de.pascaljaeger.jadex.tutorial.b2">
+	
+	<plans>
+		<plan name="egtrans">
+		 <body class="EnglishGermanTranslationPlanB2"/>
+			<trigger>
+				<messageevent ref="request_translation"/>
+			</trigger>
+ 		</plan>
+	</plans>
+
+ 	<events>
+ 		<messageevent name="request_translation" direction="receive" type="fipa">
+ 			<parameter name="performative" class="String" direction="fixed">
+ 				<value>jadex.adapter.fipa.SFipa.REQUEST</value>
+ 			</parameter>
+ 		</messageevent>
+ 	</events>
+
+</agent>
